@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Others
+*.sqlite3
+*.db
+
+# Ignore requirements.txt backup
+requirements*.bak
+
+# Ignore test results
+htmlcov/
+coverage.xml
+*.cover
+
+# Ignore build
+build/
+dist/
+*.egg-info/
